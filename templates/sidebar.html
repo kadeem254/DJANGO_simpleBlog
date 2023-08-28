@@ -1,0 +1,28 @@
+{% block sidebar %}
+
+<style>
+  .card {
+    box-shadow: 0 16px 48px #e3e7eb;
+  }
+</style>
+
+<!-- Sidebar Widgets Column -->
+<div class="col-md-4 float-right">
+  <div class="card my-4">
+    <h5 class="card-header">About This Project</h5>
+    <div class="card-body">
+      <p class="card-text">
+        This blog website was created by using a tutorial from Django Central.
+        It has bee slightly modified for my learning purposes but if you wish
+        to view the original tutorial check it out in the link below.
+      </p>
+      <a
+        href="https://djangocentral.com/building-a-blog-application-with-django"
+        class="btn btn-danger"
+        >Original Tutorial</a
+      >
+    </div>
+  </div>
+</div>
+
+{% endblock sidebar %}
